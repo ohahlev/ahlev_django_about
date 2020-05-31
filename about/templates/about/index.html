@@ -1,10 +1,24 @@
-{% load static %} 
+{% extends 'admin/base.html' %}
+{% load static %}
 {% block extracss %}
+<!--
 <link rel="stylesheet" href="{% static 'about/css/style.css' %}"/>
+-->
 {% endblock %}
 
-{% block main_content %}
-  {{ about_us.whatweare|safe }}
-  {{ about_us.whatwedo|safe }}
-  {{ about_us.whoweare|safe }}
+{% block content %}
+
+<div class="uk-section uk-section-default">
+  <div class="uk-container">
+      <div class="uk-height-large uk-background-cover uk-overflow-hidden uk-light uk-flex uk-flex-top" style="background-image: url('{% static 'about/img/dark.jpg' %}'); height: 1000px;">
+        <div class="uk-width-1-2@m uk-text-center uk-margin-auto uk-margin-auto-vertical">
+          <div uk-parallax="opacity: 0,1; y: -100, -10; scale: 2,1; viewport: 0.5;" class="uk-card uk-card-default uk-card-body">{{ about_us.whatweare|safe }}</div>
+          <div uk-parallax="opacity: 0,1; y: 100, 0; scale: 0.5,1; viewport: 0.5;" class="uk-card uk-card-default uk-card-body">{{ about_us.whatwedo|safe }}</div>
+          <div uk-parallax="opacity: 0,1; y: 150, 10; scale: 1.5,1; viewport: 0.5;" class="uk-card uk-card-default uk-card-body">{{ about_us.whoweare|safe }}</div>
+        </div>
+    
+      </div>
+  </div>
+</div>
+
 {% endblock %}
