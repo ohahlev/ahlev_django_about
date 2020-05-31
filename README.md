@@ -1,16 +1,14 @@
-# TMP APPLICATION
-![pypi](https://img.shields.io/pypi/v/tmp) ![pypi](https://img.shields.io/pypi/status/tmp)
+# About Us application
+![pypi](https://img.shields.io/pypi/v/ahlev_django_about) ![pypi](https://img.shields.io/pypi/status/ahlev_django_about)
 
-> Replace tmp with real application name
 
-## install from this repository
 ### clone
 
-> git clone https://github.com/ohahlev/tmp.git
+> git clone https://github.com/ohahlev/ahlev_django_about.git
 
-### go to directory tmp
+### go to directory ahlev_django_about
 
-> cd tmp
+> cd ahlev_django_about
 
 ### create installer package
 
@@ -22,19 +20,19 @@ cd into project directory
 
 > cd ../my_project_dir
 
-install ahlev_django_about_us from the project directory
+install ahlev_django_about from the project directory
 
-> pip install ../tmp/dist/tmp-0.0.1.tar.gz
+> pip install ../tmp/dist/ahlev_django_about-0.0.1.tar.gz
 
 
 ## install from pypi
-[tmp](https://pypi.org/project/tmp/)
+[ahlev_django_about](https://pypi.org/project/tmp/)
 
 ## project configuration
-### add tmp app to settings.py
+### add about to settings.py
 
     INSTALLED_APPS = [
-      'tmp',  # add this line
+      'about',  # add this line
       ...
     ]
 
@@ -56,9 +54,21 @@ install ahlev_django_about_us from the project directory
     from django.urls import include, path
 
     urlpatterns = [
-       path('tmp/', include('tmp.urls')),
+      path('about/', include('about.urls')),
        path('admin/', admin.site.urls),
     ] + static(settings.MEDIA_URL, document_root=settings.MEDIA_ROOT)
 
 
 ## screenshots
+### dashboard
+![](screenshots/dashboard.jpg)
+
+### list
+![](screenshots/list.png)
+
+### edit
+![](screenshots/edit.png)
+
+### change history
+![](screenshots/change-history.png)
+

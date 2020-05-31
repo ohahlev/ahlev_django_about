@@ -15,6 +15,7 @@ setup(
     url='https://github.com/ohahlev/ahlev_django_about',
     packages=find_packages(),
     install_requires=[
+        'django-tinymce'
     ],
     classifiers=[
         'Development Status :: 4 - Beta',
