@@ -1,0 +1,10 @@
+{% load static %} 
+{% block extracss %}
+<link rel="stylesheet" href="{% static 'about/css/style.css' %}"/>
+{% endblock %}
+
+{% block main_content %}
+  {{ about_us.whatweare|safe }}
+  {{ about_us.whatwedo|safe }}
+  {{ about_us.whoweare|safe }}
+{% endblock %}

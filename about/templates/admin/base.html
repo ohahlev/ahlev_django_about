@@ -1,0 +1,15 @@
+{% extends "admin/base.html" %}
+{% load static %}
+{% block brand %}
+  <div class="uk-navbar-center nav-overlay">
+    <a class="uk-navbar-item uk-logo" href="/admin" title="Logo"><img src="{% static 'about/img/logo.png' %}" alt="Logo"></a>
+  </div>
+{% endblock %}
+
+{% block socials %}
+<div class="uk-navbar-item">
+  <a class="uk-visible@s" style="margin-right: 4px;" href="https://www.facebook.com/ohahlev" uk-icon="icon: facebook; ratio: 2.0"></a>
+  <a class="uk-visible@s" style="margin-right: 4px;" href="https://www.youtube.com/channel/UCW5ecqlRPhjLMramP3HnZjQ" uk-icon="icon: youtube; ratio: 2.0"></a>
+  <a class="uk-navbar-toggle uk-hidden@m" data-uk-toggle data-uk-navbar-toggle-icon href="#offcanvas-nav"></a>
+</div>
+{% endblock %}
