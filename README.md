@@ -1,4 +1,4 @@
-# About Us application
+# About Us Application
 ![pypi](https://img.shields.io/pypi/v/ahlev_django_about) ![pypi](https://img.shields.io/pypi/status/ahlev_django_about)
 
 
