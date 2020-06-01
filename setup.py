@@ -1,7 +1,7 @@
 # -*- coding: utf-8 -*-
 from setuptools import setup, find_packages
 
-__version__ = '0.0.3'
+__version__ = '0.0.4'
 
 setup(
     name='ahlev_django_about',
