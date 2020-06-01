@@ -1,6 +1,5 @@
-# About Us Application
+# About Application
 ![pypi](https://img.shields.io/pypi/v/ahlev_django_about) ![pypi](https://img.shields.io/pypi/status/ahlev_django_about)
-
 
 ### clone
 
@@ -22,7 +21,7 @@ cd into project directory
 
 install ahlev_django_about from the project directory
 
-> pip install ../tmp/dist/ahlev_django_about-0.0.1.tar.gz
+> pip install ../ahlev_django_about/dist/ahlev_django_about-0.0.1.tar.gz
 
 
 ## install from pypi
