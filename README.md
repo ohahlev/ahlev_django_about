@@ -60,7 +60,7 @@ install ahlev_django_about from the project directory
 
 ## screenshots
 ### dashboard
-![](screenshots/dashboard.jpg)
+![](screenshots/dashboard.png)
 
 ### list
 ![](screenshots/list.png)
