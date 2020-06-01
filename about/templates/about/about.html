@@ -9,13 +9,13 @@
         <div class="uk-child-width-expand@s" uk-grid>
             <div class="uk-card uk-card-default uk-card-body">
                 <div class="uk-card-title">Who we are?</div>
-                <p>{{ about.whoweare }}</p>
+                <p>{{ about.whoweare|safe }}</p>
             </div>
         </div>
         <div class="uk-child-width-expand@s" uk-grid>
             <div class="uk-card uk-card-default uk-card-body">
                 <div class="uk-card-title">What we do?</div>
-                <p>{{ about.whatwedo }}</p>
+                <p>{{ about.whatwedo|safe }}</p>
             </div>
         </div>
     </div>
