@@ -71,3 +71,5 @@ install ahlev_django_about from the project directory
 ### change history
 ![](screenshots/change-history.png)
 
+### about us page
+![](screenshots/about.png)
