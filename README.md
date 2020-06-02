@@ -31,8 +31,8 @@ install ahlev_django_about from the project directory
 ### add about to settings.py
 
     INSTALLED_APPS = [
-      'about',             # add this line
-      'ahlev_django_uikit' # and this line
+      'about',              # add this line
+      'ahlev_django_uikit', # and this line
       ...
     ]
 
