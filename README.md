@@ -25,13 +25,14 @@ install ahlev_django_about from the project directory
 
 
 ## install from pypi
-[ahlev_django_about](https://pypi.org/project/tmp/)
+[ahlev_django_about](https://pypi.org/project/ahlev_django_about/)
 
 ## project configuration
 ### add about to settings.py
 
     INSTALLED_APPS = [
-      'about',  # add this line
+      'about',             # add this line
+      'ahlev_django_uikit' # and this line
       ...
     ]
 
