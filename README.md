@@ -34,7 +34,7 @@ install ahlev_django_about from the project directory
       'about',              # add this line
       'layout',             # make sure you have this line
       'ahlev_django_uikit', # make sure you have this line
-      'wdget_tweaks',       # make sure you have this line
+      'widget_tweaks',      # make sure you have this line
       ...
     ]
 
