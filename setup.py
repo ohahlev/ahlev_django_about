@@ -1,7 +1,7 @@
 # -*- coding: utf-8 -*-
 from setuptools import setup, find_packages
 
-__version__ = '0.0.6'
+__version__ = '0.0.7'
 
 setup(
     name='ahlev_django_about',
@@ -16,7 +16,7 @@ setup(
     packages=find_packages(),
     install_requires=[
         'django-tinymce',
-        'ahlev_django_uikit'
+        'ahlev_django_layout'
     ],
     classifiers=[
         'Development Status :: 4 - Beta',
