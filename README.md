@@ -49,6 +49,7 @@ install ahlev_django_about from the project directory
 ### make sure these lines exists in urls.py
 
     # replace tmp with application name
+    from django.contrib import admin
     from django.conf import settings
     from django.conf.urls.static import static
     from django.urls import include, path
